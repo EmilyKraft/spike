@@ -1,4 +1,6 @@
 export default interface AdalConfig {
+  /* tslint:disable */
+
     /**
      * The AAD tenant
      */
@@ -23,4 +25,4 @@ export default interface AdalConfig {
      * Additional AAD query parameters
      */
     additionalQueryParameter: string;
-}
+};
