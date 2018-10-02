@@ -3,7 +3,7 @@ import { Button } from 'reactstrap';
 import ActiveDirectoryAuthenticator from '../utils/adal/ActiveDirectoryAuthenticator';
 import { Letter } from './Letter';
 
-export class HomePage extends React.Component { //tslint:disable-line
+export class HomePage extends React.Component {
 
 	private activeDirectoryAuthenticator: ActiveDirectoryAuthenticator;
 
@@ -12,8 +12,7 @@ export class HomePage extends React.Component { //tslint:disable-line
 			<div>
 				<Button
 					color="danger"
-					onClick={this.activeDirectoryAuthenticator.login()}
-				>
+					onClick={this.activeDirectoryAuthenticator.login()}>
 					Login
 				</Button>
 			</div>
