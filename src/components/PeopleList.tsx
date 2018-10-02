@@ -66,11 +66,9 @@ export class PeopleList extends React.Component {
 	}
 
 	public render(): JSX.Element {
-		let text ="";
+		let text: string ="no";
 			if (this.loggedIn) {
 					text="yes";
-			} else {
-				text="no";
 			}
 
 	            // this.activeDirectoryAuthenticator.handleCallback();

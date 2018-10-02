@@ -1,5 +1,5 @@
-export default interface AdalConfig {
   /* tslint:disable */
+export default interface AdalConfig {
 
     /**
      * The AAD tenant
