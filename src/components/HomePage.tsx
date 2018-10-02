@@ -12,7 +12,7 @@ export class HomePage extends React.Component {
 			<div>
 				<Button
 					color="danger"
-					onClick={this.activeDirectoryAuthenticator.login()}>
+					onClick={this.activeDirectoryAuthenticator.login}>
 					Login
 				</Button>
 			</div>

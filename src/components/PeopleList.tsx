@@ -50,6 +50,9 @@ export class PeopleList extends React.Component {
 	//
 	// }
 
+	public loggedIn(): boolean {
+			return(true)
+	}
 	public filterNames(names: string[], letter: string): string[] {
 		const nonEmptyNames: string[] = names.filter((name: string) => name);
 		const capitalizedNames: string[] = nonEmptyNames.map(
@@ -64,7 +67,7 @@ export class PeopleList extends React.Component {
 
 	public render(): JSX.Element {
 		let text ="";
-			if (loggedIn) {
+			if (this.loggedIn) {
 					text="yes";
 			} else {
 				text="no";
