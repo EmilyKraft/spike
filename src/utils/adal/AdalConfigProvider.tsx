@@ -7,10 +7,10 @@ export default class AdalConfigProvider {
 	public get getAdalConfig(): AdalConfig {
 		return {
 			additionalQueryParameter: 'nux=1',
-			clientId: '0b373a7b-2a2c-48a4-9d03-a95cfe76fded',
+			clientId: '6bc62c3e-f8f4-4231-9c16-b53a7e6364a9',
 			postLogoutRedirectUri: window.location.origin + '/',
 			redirectUri: window.location.origin + '/',
-			tenant: '9ca75128-a244-4596-877b-f24828e476e2',
+			tenant: 'cc6acdda-7662-4227-8e1e-2071edb26f4b',
 		};
 	}
 }
